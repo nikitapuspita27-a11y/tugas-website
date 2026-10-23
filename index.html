@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        header {
+            background: linear-gradient(to top, #000000ab, transparent), url("im/gedungitb.png");
+            background-size: cover;
+            color: #d4f0ff;
+            padding: 100px 20px;
+            text-align: center;
+            background-position: center;
+            color: white;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.534);
+        }
+
+        header:hover {
+            border: none;
+            border-radius: 6px;
+            font-size: 1em;
+        }
+
+        header h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        header p {
+            color: #fff;
+            font-size: 18px;
+        }
+
+        header p span {
+            color: #4a73ff;
+            font-style: italic;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .section {
+            height: 400px;
+            display: flex;
+            text-align: left;
+            margin: 10px;
+            width: 100%;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 12px #4a73ff;
+            overflow: hidden;
+            padding: 14px;
+            font-family: sans-serif;
+            transition: 0.5s;
+        }
+
+        .section img {
+            width: 400px;
+            height: 100%;
+            object-fit: cover;
+            transition: 0.8s;
+        }
+
+        .section button {
+            margin-top: 12px;
+            padding: 10px 14px;
+            background: #4a73ff;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 15px;
+            color: #000;
+            box-shadow: 0 8px 20px #4a73ff;
+
+        }
+
+        .img {
+            overflow: hidden;
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 15px;
+            transition: 0.8s;
+        }
+
+        .img:hover {
+            transform: scale(1.1) rotate(2deg);
+        }
+
+        .section-lok {
+            display: flex;
+            justify-content: center;
+
+            color: darkblue;
+            transition: 0.5s;
+        }
+
+        .row {
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="im/logo.png" alt="ITB">
+                <h2>InstitutTekn<span>ologiBandung.</span></h2>
+            </div>
+            <ul>
+                <li><a href="Biodata.html">Biodata</a></li>
+                <li><a href="Profil.html">Profil</a></li>
+                <li><a href="Fakultas.html">Fakultas</a></li>
+                <li><a href="Fasilitas.html">Fasilitas</a></li>
+                <li><a href="UKM1.html">UKM</a></li>
+                <li><a href="Program.html">Program studi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Selamat Datang di Website Non Resmi ITB
+        </h1>
+        <p>Informasi singkat mengenai <span>Universitas Institut Teknologi Bandung (ITB)</span>
+        </p>
+    </header>
+
+    <main id="container">
+        <div class="section">
+            <img src="im/orangitb-removebg-preview.png" alt="">
+            <div class="med">
+                <p class="tag">Kampus terbaik untuk inovasi,teknologi,dan kreativitas
+                </p>
+                <p class="deskripsi">Institut Teknologi Bandung(ITB) merupakan sekolah tinggi teknik pertama diIndonesia
+                    yang didirikan pada tanggal 3 Juli 1920 sebagai de Technische Hoogesschool te Bandoeng (TH). Tanggal
+                    2 Maret 1959
+                    diresmikan sebagi ITB dengan misi pengabdian ilmu pengetahuan dan teknologi untuk memajukan
+                    Indonesia. ITB
+                    hadir untuk mengoptimalkan pembangunan bangsa yang maju dan bermatabat.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <div class="section-lok">
+        <h2>Lokasi</h2>
+    </div>
+
+    <section class="Kontak">
+        <div class="row">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3961.0021401600866!2d107.60557777175488!3d-6.890345687021217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sinstitut%20teknologi%20bandung%20fakultas!5e0!3m2!1sid!2sid!4v1764299741871!5m2!1sid!2sid"
+                width="80%" height="500" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+    </section>
+    
+    <footer>
+        <div class="footer">
+            <div class="footer-column">
+                <div class="social-media">
+                    <ul>
+                        <li><a href="https://web.facebook.com/institutteknologibandung" target="_blank"
+                                title="Facebook">
+                                <i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="https://youtube.com/itbofficial" target="_blank" title="YouTube"><i
+                                    class="fab fa-youtube"></i></a></li>
+                        <li><a href="https://instagram.com/itb1920" target="_blank" title="Instagram"><i
+                                    class="fab fa-instagram"></i></a></li>
+                        <li><a href="https://x.com/itbofficial" target="_blank" title="fab fa-x"><i
+                                    class="fab fa-x"></i></a></li>
+                        <li> <a href="https://itb.ac.id/" target="_blank" title="Vidio"><i class="fas fa-video"></i></a>
+                        </li>
+                    </ul>
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    ©Berita.Agenda.Kegiatan.Fokus
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
